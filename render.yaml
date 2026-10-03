@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: surendra-tambola
+    runtime: node
+    buildCommand: npm install
+    startCommand: npm start
+    plan: free
